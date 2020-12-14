@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+	<script>
+		
+		function show (id)
+			{
+				
+				var div = document.getElementById(id);
+				div.style.display = "block";
+				
+			}
+	
+		function hide (id)
+			{
+				var div = document.getElementById(id);
+				div.style.display = "none";
+			}
+	</script>
+	
+	<head>
+		<title>Tobias Mayer Portfolio</title>
+		<link rel="stylesheet" href="css/portsheet.css">
+	</head>
+	<body>
+	
+	<div class="div1" style="width: 100%;">
+		<h1>Welcome to my portfolio website! </h1>
+		
+	</div>
+	
+	<div class="div2" style="width: 100%;">
+	
+		
+		<h2> <a <a onmouseover="show('home')" onmouseleave="hide('home')" href="Index.html">Home</a> | <a <a onmouseover="show('cv')" onmouseleave="hide('cv')" href="myprotcv.html">CV</a> | <a onmouseover="show('project')" onmouseleave="hide('project')" href="myprotproj.html">Projects</a> | <a onmouseover="show('contacts')" onmouseleave="hide('contacts')" href="myprotcont.html">Contacts</a> |</h2>
+	
+	</div>
+	
+	<div id="contacts" class="allMenus" style="background: yellow;">
+		<p>Page for my contacts</p>
+		
+		
+		
+	</div>
+	
+	<div id="project" class="allMenus" style="background: yellow;">
+	
+		<p>Page for my contacts</p>
+		
+		
+		
+	</div>
+	
+	<div id="cv" class="allMenus" style="background: yellow;">
+		
+		<p>Page for my CV</p>
+		
+		
+		
+	</div>
+	
+	<div id="home" class="allMenus" style="background: yellow; ">
+	
+		<p>Home page</p>
+		
+		
+		
+	</div>
+	
+	<div class="footer">
+		<p>Made by: Tobias Mayer<br>
+		<a href="mailto:mayer.tobi1@gmail.com">mayer.tobi1@gmail.com</a></p>
+	</div>
+	
+	</body>
+</html>
