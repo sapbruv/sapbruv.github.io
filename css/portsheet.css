@@ -112,6 +112,41 @@ a:active {
 .row {
   display: flex;
 }
+.projpar{
+		font-family: Arial, sans-serif;
+		margin:auto;
+		padding:5px;
+		width: 50%;
+		border-width: 5px; 
+		border-style: solid; 
+		border-color: yellow; 
+		background: rgb(0, 230, 230); 
+		text-align: center;
+	
+}
+.projpar{
+		font-family: Arial, sans-serif;
+		margin:auto;
+		padding:5px;
+		width: 50%;
+		border-width: 5px; 
+		border-style: solid; 
+		border-color: yellow; 
+		background: rgb(0, 230, 230); 
+		text-align: center;
+}
+.cvtext{
+		font-family: Arial, sans-serif;
+		margin:auto;
+		padding:5px;
+		width: 50%;
+		border-width: 5px; 
+		border-style: solid; 
+		border-color: yellow; 
+		background: rgb(0, 230, 230); 
+		text-align: left;
+}
+
 .projdiv {
   border: 5px outset Yellow;
   background-color: Red;    
