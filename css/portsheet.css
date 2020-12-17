@@ -87,7 +87,12 @@ a:active {
 .div6{
 	float: right;
 	text-align: left;
-	width: 85%;
+	width: 84%;
+	font-family: Arial, sans-serif;			
+	border-width: 5px; 
+	border-style: solid; 
+	border-color: yellow; 
+	background: rgb(0, 230, 230); 
 }
 .div7{
 	float: right;
@@ -151,6 +156,12 @@ a:active {
   border: 5px outset Yellow;
   background-color: Red;    
   text-align: center;
+}
+.bear{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
 }
 h1{
 	text-align: left;
